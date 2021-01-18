@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Kevan Lee Lum">
+    <!-- http://www.kevanleelum.com/ -->
+    <meta name="description" content="The history of the 1st Trinidad Sea Scouts">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st Trinidad Past Scouts</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="master.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <style media="screen">
+      .main{
+        margin: auto;
+        max-width: 1200px;
+      }
+
+      .table-div{
+        margin-top: 30px;
+      }
+
+      th:hover{
+        background-color: lightgrey;
+        cursor: pointer;
+      }
+
+      @media screen and (max-width: 991px) {
+        .table-div{
+          max-width: 100vw;
+          overflow-x: scroll;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!--see include.js-->
+    </header>
+
+    <div class="container-fluid cover">
+      <img src="images/dexter_logo.png" width="800px" alt="">
+    </div>
+
+    <div class="container-fluid main" style="padding-bottom:50px;">
+      <h1>Past Scouts Directory</h1>
+      <p>The following is a list of some of our past scouts. Click on the table headings to sort. We apologize for not
+        having records of everyone. In order to help update this list, we would
+        like to invite all past scouts to register by sending us a message
+        <a href="contact.html">on our contact page.</a></p>
+      <input id="searchInput" class="form-control" type="text" name="name" placeholder="Search for name here">
+
+      <div class="table-div">
+        <table id="pastScouts" class='table table-striped'>
+          <thead class="thead-dark">
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Active From</th>
+            <th>To</th>
+            <th>Email</th>
+          </thead>
+          <tbody id="list">
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="" id="joinUs">
+      <!-- see include.js -->
+    </div>
+
+    <footer>
+      <!-- see include.js -->
+    </footer>
+
+    <script src="include.js" charset="utf-8"></script>
+
+    <!-- Datatables -->
+    <script src="http://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"></script>
+    <script src="http://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+    <script src="pastScouts.js"></script>
+    <script type="text/javascript">
+      $(document).ready( function () {
+        const list = document.getElementById('list');
+          for(var i in pastScouts){
+            let row  = document.createElement('tr');
+            let first = document.createElement('td');
+            first.textContent = pastScouts[i]['first'];
+            row.appendChild(first);
+
+            let last = document.createElement('td');
+            last.textContent = pastScouts[i]['last'];
+            row.appendChild(last);
+
+            let from = document.createElement('td');
+            from.textContent = pastScouts[i]['from'];
+            row.appendChild(from);
+
+            let to = document.createElement('td');
+            to.textContent = pastScouts[i]['to'];
+            row.appendChild(to);
+
+            let email = document.createElement('td');
+            email.textContent = pastScouts[i]['email'];
+            row.appendChild(email);
+            list.appendChild(row);
+          };
+
+        datatable = $('#pastScouts').DataTable({
+          "order": [ 1, 'asc' ],
+          "paging": false,
+          "searching": true,
+          "info": false,
+          "dom": 'lrtip',
+        });
+        $('#searchInput').keyup(function(){
+          datatable.search($(this).val()).draw() ;
+        })
+      });
+
+    </script>
+  </body>
+</html>

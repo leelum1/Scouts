@@ -1,0 +1,102 @@
+h1{
+  margin: 0px;
+  text-align: left;
+}
+
+h2{
+  font-weight: normal;
+  background-color: #70b2e9;
+  margin: 0px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+p{
+  max-width: 1000px;
+}
+
+img{
+  border: none;
+  max-width: 100%;
+}
+
+svg{
+  max-width: 100%;
+}
+
+.sidebar{
+  border-radius: 5px;
+  padding: 20px;
+  width: 100%;
+}
+
+.nav-category{
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  color: black;
+  display: block;
+  padding: 10px;
+  text-align: left;
+  width: 100%;
+}
+
+.nav-category:last-child{
+  border-bottom: 1px solid grey;
+}
+
+.nav-category:hover{
+  background-color: lightgrey;
+  transition: background-color 0.3s;
+}
+
+.subcategory{
+  padding-left: 25px;
+}
+
+.arrow{
+  display: inline;
+}
+
+.content{
+  min-height: 100vh;
+}
+
+.sub-topic{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.inactive{
+  color: grey;
+  cursor: context-menu;
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+.inactive:hover{
+  color: grey;
+  cursor: context-menu;
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+.references{
+  margin-top: 50px;
+}
+
+.reference-link{
+  font-style: italic;
+}
+
+.caption{
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+}
+
+footer{
+  margin-top: 50px;
+}

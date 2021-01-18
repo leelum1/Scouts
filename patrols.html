@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Kevan Lee Lum">
+    <!-- http://www.kevanleelum.com/ -->
+    <meta name="description" content="1st Trinidad Sea Scouts patrol listing">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st Trinidad Sea Scouts Patrol Directory</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Pirata+One" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="master.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <style media="screen">
+      .intro{
+        padding: 50px 5% 100px 5%;
+      }
+
+      .img{
+        text-align: center;
+      }
+
+      .leaders{
+        background-color: black;
+        color:white;
+      }
+
+      .leaders * {
+        text-align: center;
+      }
+
+      .leaders p{
+        margin-top: 5px;
+      }
+
+      .patrol{
+        margin: auto;
+        vertical-align: top;
+      }
+
+      .leader-img{
+        border: none;
+        border-radius: 5%;
+        height: 150px;
+      }
+
+      table{
+        margin: auto;
+        margin-bottom: 20px;
+      }
+
+      th{
+        border: 1px solid black;
+        font-size: 20px;
+        text-align: center;
+      }
+
+      td{
+        border: 1px solid black;
+        padding: 0;
+        vertical-align: text-top;
+        width: 300px;
+      }
+
+      td .img{
+        padding: 10px;
+      }
+
+      ol{
+        margin-top:10px;
+      }
+
+      .leader-name{
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 10px;
+        text-align: center;
+      }
+
+      @media screen and (max-width: 991px) {
+        .intro{
+          padding-top: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!--see include.js-->
+    </header>
+
+    <div class="main">
+
+      <div class="img" style="margin-top:50px;">
+        <img class="troop-img" src="images/patrols/Scouts2019.jpg" title="First Trinidad Sea Scouts Troop 2018" alt="Troop photo">
+      </div>
+
+      <h1 class="img-title">1st Trinidad Sea Scouts 2019 - 2020</h1>
+
+      <div class="container-fluid intro">
+        <h1>Patrol Listing</h1>
+
+        <p style="margin:auto;max-width:1200px;">The First Trinidad Sea Scouts troop
+          is split into 4 patrols: Seagulls Tadpoles, Curlews Dolphins, Otters
+          Shrimps, and Beavers Seals. Recruits who are not yet placed into patrols are
+          placed into a temporary patrol called Squids. The troop is managed by the
+          <em>Scout Leader</em>, and is led by the <em>Troop Leader - TL</em> and
+          <em>Assistant Troop Leaders - ATL</em>. The troop leaders are typically in Form 6.
+          Each patrol, which is comprised of student from Form 1 - 5, is led by a
+          <em>Patrol Leader - PL</em> and <em>Assistant Patrol Leader - APL</em>.  A <em>Junior</em>
+          patrol is further split from each patrol and is led by the
+          <em>Junior Patrol Leader - JPL</em>. The Junior patrol includes students in Forms 1 - 3.</p>
+
+        <p style="margin-top:20px;text-align:center;">Below is a current listing of scouts, categorized by patrol. There are
+          currently <span id="scouts-count"></span> registered scouts with 1TSS.
+          <a href="pastScouts.html">Click here</a>
+          to view the Past Scouts Directory.
+        </p>
+      </div>
+
+      <div class="container-fluid leaders">
+        <div class="row">
+          <div class="col-md-12 col-xs-12">
+            <h2>Scout Leader</h2>
+            <div class="leaders-img">
+              <img src="images/patrols/GraceMurray.jpg" height="200px" alt="Scout Leader">
+            </div>
+            <p>Grace Murray</p>
+          </div>
+<!--
+          <div class="col-md-6 col-xs-12">
+            <h2>Troop Leader</h2>
+            <div class="leaders-img">
+              <img src="images/patrols/AidanPinard.jpg" height="200px" alt="Troop Leader">
+            </div>
+            <p>Aidan Pinard</p>
+          </div> -->
+        </div>
+
+        <div style="border-top:1px solid white;">
+          <h2>Assistant Troop Leaders</h2>
+          <div class="row">
+            <div class="col-md-6 col-xs-12">
+              <div class="leaders-img">
+                <img src="images/patrols/YahyaaMohammed.png" height="200px" alt="Assistant Troop Leader">
+              </div>
+              <p>Yahyaa Mohammed</p>
+            </div>
+
+            <div class="col-md-6 col-xs-12">
+              <div class="leaders-img">
+                <img src="images/patrols/GabrielStewart.png" height="200px" alt="Assistant Troop Leader">
+              </div>
+              <p>Gabriel Stewart</p>
+            </div>
+
+            <!-- <div class="col-md-4 col-xs-12">
+              <div class="leaders-img">
+                <img src="images/patrols/JoshuaZhang.jpg" height="200px" alt="Assistant Troop Leader">
+              </div>
+              <p>Joshua Zhang</p>
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- TADS -->
+      <div class="container-fluid patrols" style="padding-bottom:50px;">
+        <div class="row">
+          <div class="col-xl-6 col-lg-12 patrol">
+            <table>
+              <thead style="background-color:lightgreen;">
+                <th>Seagulls</th>
+                <th>Tadpoles</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="img" style="background-color:lightgreen;">
+                      <img class="leader-img" src="images/patrols/RonaldoRomany.png" alt="Tads Patrol Leader">
+                      <p class="leader-name">Romany, Ronaldo - <em>PL</em></p>
+                    </div>
+                    <ol>
+                      <li>Lock, Joshua - <em>APL</em></li>
+                      <li>Timothy, Zidane</li>
+                      <li>Walcott, Liam</li>
+                    </ol>
+                  </td>
+                  <td>
+                    <div class="img" style="background-color:lightgreen;">
+                      <img class="leader-img" src="images/patrols/ShaquilleLewis.png" alt="Tads Junior Patrol Leader">
+                      <p class="leader-name">Lewis, Shaquille - <em>JPL</em></p>
+                    </div>
+                    <ol>
+                      <li>Alexander, Kevin</li>
+                      <li>Brathwaite, Shaundel</li>
+                      <li>Bullen, Christian</li>
+                      <li>La Croix, Jonah</li>
+                      <li>Roberts, Jerome</li>
+                      <li>Romero, Kamosi</li>
+                      <li>Terrell, Anthony</li>
+                    </ol>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Dolphins -->
+          <div class="col-xl-6 col-lg-12">
+            <table>
+              <thead style="background-color:lightgrey;">
+                <th>Curlews</th>
+                <th>Dolphins</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="img" style="background-color:lightgrey;">
+                      <img class="leader-img" src="images/patrols/TreyHackshaw.png" alt="Dolphins Patrol Leader">
+                      <p class="leader-name">Hackshaw, Trey - <em>PL</em></p>
+                    </div>
+                    <ol>
+                      <li>St Bernard, Kailon - <em>APL</em></li>
+                      <li>Ramlogan, Shayn</li>
+                    </ol>
+                  </td>
+                  <td>
+                    <div class="img" style="background-color:lightgrey;">
+                      <img class="leader-img" src="images/patrols/KiraboDanielConnell.png" alt="Dolphins Junior Patrol Leader">
+                      <p class="leader-name">Daniel-Connell, Kirabo - <em>JPL</em></p>
+                    </div>
+                    <ol>
+                      <li>Achille, Sa'id</li>
+                      <li>Alexander, Taariq</li>
+                      <li>Bachew, Ethan</li>
+                      <li>Edwards, Alastair</li>
+                      <li>Willams, Jaheim</li>
+                    </ol>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Shrimps -->
+          <div class="col-xl-6 col-lg-12">
+            <table>
+              <thead style="background-color:#f06055;">
+                <th>Otters</th>
+                <th>Shrimps</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="img" style="background-color:#f06055;">
+                      <img class="leader-img" src="images/patrols/Jean-PaulMiles.jpg" alt="Shrimps Patrol Leader">
+                      <p class="leader-name">Miles, Jean-Paul - <em>PL</em></p>
+                    </div>
+                    <ol>
+                      <!-- <li>Miles, Jean-Paul - <em>APL</em></li> -->
+                      <li>Blades, Jonathan</li>
+                    </ol>
+                  </td>
+                  <td>
+                    <div class="img" style="background-color:#f06055;">
+                      <img class="leader-img" src="images/patrols/JoshuaNoel.png" alt="Shrimps Junior Patrol Leader">
+                      <p class="leader-name">Noel, Joshua - <em>JPL</em></p>
+                    </div>
+                    <ol>
+                      <li>Douglas-Mohammed, Aidan</li>
+                      <li>Gould, Jaedon</li>
+                      <li>Haynes, Jovani</li>
+                      <li>Hope, Daniel</li>
+                      <li>Murray, Dane</li>
+                      <li>Spencer, Nathaniel</li>
+                    </ol>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- SEALS -->
+          <div class="col-xl-6 col-lg-12">
+            <table>
+              <thead style="background-color:lightblue;">
+                <th>Beavers</th>
+                <th>Seals</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="img" style="background-color:lightblue;">
+                      <img class="leader-img" src="images/patrols/TerrelBriggs.jpg" alt="Seals Patrol Leader">
+                      <p class="leader-name">Briggs, Terrel - <em>PL</em></p>
+                    </div>
+                    <ol>
+                      <!-- <li>Briggs, Terrel - <em>APL</em></li> -->
+                    </ol>
+                  </td>
+                  <td>
+                    <div class="img" style="background-color:lightblue;">
+                      <img class="leader-img" src="images/patrols/VishanSingh.jpg" alt="Seals Junior Patrol Leader">
+                      <p class="leader-name">Singh, Vishan - <em>JPL</em></p>
+                    </div>
+                    <ol>
+                      <li>Aleong, Yannick</li>
+                      <li>Chase, Kyle</li>
+                      <li>Moore, Jaedon</li>
+                      <li>Steele Ward, Brett</li>
+                    </ol>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- SQUIDS -->
+        <div class="container-fluid">
+          <div class="recruits" style="margin-top:20px;">
+            <table>
+              <thead style="background-color:pink;">
+                <th>Squids/Recruits</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <ol>
+                      <li>Alexander, Ethan</li>
+                      <li>Alexander, Terrell</li>
+                      <li>Ali, Zaheer</li>
+                      <li>Audroing, Andrew</li>
+                      <li>Blades, Jamal</li>
+                      <li>Brown, Jean-Louis</li>
+                      <li>Cazabon, Jaden</li>
+                      <li>Dann, Joshua</li>
+                      <li>Delzin, Christopher</li>
+                      <li>Duncan, Gary</li>
+                      <li>Ellis, Gabriel</li>
+                      <li>Eugene, Antonio</li>
+                      <li>Hankey, Javan</li>
+                      <li>Kiryl, Joseph</li>
+                      <li>London, Allister</li>
+                      <li>Pierre, Shaquille</li>
+                      <li>Rajnauth, Paul</li>
+                      <li>Ramnarine, Tristan</li>
+                      <li>Roach, De Andre</li>
+                      <li>Roberts, Justin</li>
+                      <li>Robertson, Jaydon</li>
+                      <li>Scotland, Tristan</li>
+                      <li>Sinnette, Kerron</li>
+                      <li>Wilson, John-Andrew</li>
+                      <li>Wiltshire, Khalfani</li>
+                    </ol>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="img-title">1st Trinidad Sea Scouts Recruits 2019 - 2020</h1>
+
+      <div class="img">
+        <img class="troop-img" src="images/patrols/Recruits2019.jpg" title="First Trinidad Sea Scouts Recruits 2018" alt="Recruits photo">
+      </div>
+
+      <div class="" id="joinUs">
+        <!-- see include.js -->
+      </div>
+    </div>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-3">
+            <!-- <a href="https://www.instagram.com/1sttss/?hl=en"><img class="social-link" src="images/Instagram.png" alt=""></a> -->
+          </div>
+          <div class="col-9">
+            <p id="copyright">Copyright 2020 First Trinidad Sea Scouts, Est. 1922.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="include.js" charset="utf-8"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        //There are 9 leaders: TL, PLs, and JPLs
+        let count = $('li').length + 12;
+        $('#scouts-count').text(count);
+      });
+    </script>
+  </body>
+</html>
