@@ -6,6 +6,7 @@
     <!-- http://www.kevanleelum.com/ -->
     <meta name="description" content="Home page of the 1st Trinidad Sea Scouts website">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Scouts, Sea">
     <title>1st Trinidad Sea Scouts</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -24,8 +25,8 @@
     <style media="screen">
       .activities{
         color: white;
-        height: 100%;
-        padding: 200px 5% 0 5%;
+        height: 100vh;
+        padding: 10%;
         position: absolute;
         width: 100%;
         z-index: 10;
@@ -33,6 +34,12 @@
 
       .activities *{
         text-align: center;
+      }
+
+      .cover{
+        display: flex;
+        justify-content:center;
+        align-items: center;
       }
 
       .events{
@@ -112,34 +119,46 @@
     </header>
 
     <div class="container-fluid cover">
-      <img src="images/dexter_logo.png" width="800px" alt="">
+      <div class="">
+        <img src="images/dexter_logo.png" width="800px" alt="">
+        <p class="text-center" style="color:white">Celebrating 100 years!</p>
+      </div>r
     </div>
 
     <div class="activities">
-      <h1>What We Do</h1>
-      <p style="margin:auto;max-width:800px;">Our activities include weekly meetings, swimming, lifesaving,
+      <p style="margin:auto;max-width:1000px;text-align:center;">Our activities include weekly meetings, swimming, lifesaving,
         rowing, kayaking, and sailing. We hold camps at our campsite at Pt Gourde at the
-        end of every school term.</p>
+        end of every school term. Watch our promotional video below!</p>
+      <div class="my-5">
+        <video width="500" controls>
+          <source src="videos/1TSS2020Promo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+      </div>
       <div class="" style="margin-top:20px;">
-        <a class="btn btn-primary" href="activities.html">View All Activities</a>
+        <a class="btn btn-primary" href="activities.html">Learn More About Our Activities</a>
       </div>
     </div>
 
-    <div class="activities-back" style="background-image: url('images/activities.jpg');background-position: center;background-attachment: fixed;background-size: cover;height: 600px;padding: none;">
-      <div class="activities-wrap" style="background-color: grey;height: 100%;opacity: 0.7;"></div>
+    <div class="activities-back" style="background-image: url('images/activities.jpg');background-position: center;background-attachment: fixed;background-size: cover;height: 100vh;padding: none;">
+      <div class="activities-wrap" style="background-color: grey;height: 100%;opacity: 0.8;"></div>
     </div>
 
-    <div class="container-fluid" style="background-color:black;color:white;text-align:center;">
+    <!--<div class="container-fluid" style="background-color:black;color:white;text-align:center;">
       <h2>Condolences</h2>
-      <p style="max-width:600px;margin:auto;text-align:center;">Glenn Wilkes, parent of a former scout Dominic Wilkes, recently passed away. 1st Trinidad Sea scouts offers our deepest sympathy to his family.</p>
+      <p style="max-width:600px;margin:auto;text-align:center;">1st Trinidad Sea Scouts offers our deepest sympathy to the family of Mary Lou Ammon, a strong supporter of our troop for many years.</p>
       <div class="my-5">
         <img height="300" src="images/condolences.jpg" alt="Condolences">
       </div>
-    </div>
+    </div>-->
 
     <div class="main">
+      <!--<div class="container-fluid" style="text-align:center;">
+        <img class="" src="images/events/BBQ2022.png" width=800 alt="BBQ2022">
+      </div>-->
+
       <div class="container-fluid events">
-        <h1 class="my-3 display-4">Events</h1>
+        <h1 class="my-5">Events</h1>
         <div id="events">
           <!-- see events js -->
         </div>
@@ -158,7 +177,7 @@
       <section>
         <div class="container-fluid py-3" style="min-height:90vh;">
           <div class="my-5">
-            <h1 class="display-4">
+            <h1>
               <a href="learning/learning.html" style="color:black;">Learning Resources</a>
             </h1>
             <p style="text-align:center;">This is a growing list of resources that will help scouts progress in
@@ -218,11 +237,11 @@
             <p>1TSS is divided into four patrols: Seagulls Tadpoles, Curlews Dolphins, Otters
             Shrimps, and Beavers Seals. Recruits who are not yet placed into patrols are
             placed into a temporary patrol called Squids. Click below view the patrols or the past scouts directory.</p>
-            <a class="btn btn-primary" href="patrols.html">
+            <a class="btn btn-primary" style="margin:5px;" href="patrols.html">
               <i class="fa fa-info-circle"></i>
                  View Patrol Listing</a>
 
-            <a class="btn btn-primary" href="pastScouts.html">Past Scouts Directory</a>
+            <a class="btn btn-primary" style="margin:5px;" href="pastScouts.html">Past Scouts Directory</a>
           </div>
         </div>
 

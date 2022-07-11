@@ -25,10 +25,10 @@ $(document).ready( function () {
   let footerHTML = `<div class="container-fluid">
                       <div class="row">
                         <div class="col-3">
-                          <a target="_blank" href="https://www.instagram.com/1sttss/?hl=en"><img class="social-link" src="http://1tss.org/images/Instagram.png" alt=""></a>
+                          <!-- <a target="_blank" href="https://www.instagram.com/1sttss/?hl=en"><img class="social-link" src="http://1tss.org/images/Instagram.png" alt=""></a> -->
                         </div>
                         <div class="col-9">
-                          <p id="copyright">Copyright 2020 First Trinidad Sea Scouts, Est. 1922.</p>
+                          <p id="copyright">Copyright 2022 First Trinidad Sea Scouts, Est. 1922.</p>
                         </div>
                       </div>
                     </div>`;
@@ -44,7 +44,7 @@ $(document).ready( function () {
                         <a href="contact.html" style="color:white; text-decoration:underline;">contact us here.</a>
                       </p>
                       <div style="margin-top: 20px;text-align:center;">
-                        <a class="btn btn-success" href="https://docs.google.com/forms/d/12ff23mRby-Yh_4kpGempKgTZNnt1PEmfPm_cVRkBQY8/viewform?ts=5f96266f&gxids=7628&edit_requested=true" style="padding: 10px 20px 10px 20px;">Application Form</a>
+                        <a class="btn btn-success" href="https://docs.google.com/forms/d/12ff23mRby-Yh_4kpGempKgTZNnt1PEmfPm_cVRkBQY8/viewform?ts=5f96266f&gxids=7628&edit_requested=true" target="_blank" style="padding: 10px 20px 10px 20px;">Application Form</a>
                       </div>
                     </div>`;
 
