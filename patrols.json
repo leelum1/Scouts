@@ -1,0 +1,97 @@
+{
+  "patrols": [
+    {
+      "title": "Dolphins",
+      "patrolLeader" : {
+        "name" : "Alastair Edwards",
+        "photo": "images/patrols/placeholder.jpeg"
+      },
+      "patrol": [
+        "Allister London",
+        "Antonio FIgaro",
+        "Christopher Noel",
+        "Ethan Bachew",
+        "Jaheim Williams",
+        "Joseph Kiryl",
+        "Malachi Castle",
+        "Mathew Hacksaw",
+        "Nathan Thomas",
+        "Nikolai Noel",
+        "Rabon Connell",
+        "Sa'id Achille",
+        "Terrell Alexander"
+      ]
+    },
+    {
+      "title" : "Seals",
+      "patrolLeader" : {
+        "name" : "Daniel Hope",
+        "photo": "images/patrols/placeholder.jpeg"
+      },
+      "patrol": [
+        "Brett Steele Ward",
+        "Ethan Evan Agard",
+        "Ismaeel Mohammed",
+        "Jaedon Moore",
+        "Joshua Dann",
+        "Kyle Chase",
+        "Peter Hope",
+        "Shay Sookoo",
+        "Shuaib Sahadat",
+        "Tristan Ramnarine",
+        "Varun Maharaj",
+        "Yannick Aleong",
+        "Zaheer Alir",
+        "Zayne Sobers"
+      ]
+    },
+    {
+      "title": "Shrimps",
+      "patrolLeader" : {
+        "name" : "Aidan Mohammed",
+        "photo": "images/patrols/placeholder.jpeg"
+      },
+      "patrol": [
+        "Aaron Ray",
+        "Christopher Delzin",
+        "Dane Murray",
+        "Darrius Nicholas",
+        "Ethan Alexander",
+        "Gabriel Ellis",
+        "Jamal Blades",
+        "Jayvan Hankey",
+        "Jaydon Robertson",
+        "Jean-Louis Brown",
+        "Jovani Haynes",
+        "Kerron Sinnette",
+        "Kymani Richards",
+        "Nyle Pukerin",
+        "Paul Rajnauth"
+      ]
+    },
+    {
+      "title": "Tads",
+      "patrolLeader" : {
+        "name" : "Jerome Roberts",
+        "photo": "images/patrols/placeholder.jpeg"
+      },
+      "patrol": [
+        "Aleksei Diaz",
+        "Andrew Audroing",
+        "Antonio Eugene",
+        "Christian Bullen",
+        "Ethan Britain",
+        "Gary Duncan",
+        "Isaiah Leid",
+        "Justin Roberts",
+        "Jonah Le Croix",
+        "Kamosi Romero",
+        "Kevin Alexander",
+        "Scott Audroing",
+        "Shaquille Pierrre",
+        "Terrel Anthony"
+      ]
+    }
+  ]
+}
+
