@@ -514,6 +514,24 @@ li {
   text-align: center;
 }
 
+.patrol_wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.patrol_wrapper .patrol_leader_cont {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.patrol_wrapper .patrol_names_cont {
+  width: 70%;
+}
+.patrol_wrapper .patrol_names_cont ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 @media screen and (max-width: 991px) {
   .intro {
     padding-top: 20px;
