@@ -1,6 +1,6 @@
 import scouts from './patrols.json' assert {type: 'json'};
 
-console.log(scouts);
+
 
 
 let input = ''
