@@ -2,6 +2,7 @@
   "patrols": [
     {
       "title": "Dolphins",
+      "color": "rgb(128 128 128 / 25%)",
       "patrolLeader" : {
         "name" : "Alastair Edwards",
         "photo": "images/patrols/placeholder.jpeg"
@@ -24,6 +25,7 @@
     },
     {
       "title" : "Seals",
+      "color": "rgb(0 192 255 / 25%)",
       "patrolLeader" : {
         "name" : "Daniel Hope",
         "photo": "images/patrols/placeholder.jpeg"
@@ -47,6 +49,7 @@
     },
     {
       "title": "Shrimps",
+      "color": "rgb(248 96 93 / 25%)",
       "patrolLeader" : {
         "name" : "Aidan Mohammed",
         "photo": "images/patrols/placeholder.jpeg"
@@ -71,6 +74,7 @@
     },
     {
       "title": "Tads",
+      "color": "rgb(72 255 72 / 25%)",
       "patrolLeader" : {
         "name" : "Jerome Roberts",
         "photo": "images/patrols/placeholder.jpeg"

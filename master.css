@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Pirata+One&family=Raleway&display=swap");
 .activities {
   color: white;
   height: 100vh;
@@ -452,6 +453,41 @@ th:hover {
   text-align: center;
 }
 
+patrol_page_cont .hero_img_cont {
+  margin-top: 56px;
+}
+patrol_page_cont .hero_img_cont .troop-img {
+  width: 100%;
+}
+#patrols .patrol {
+  padding: 4em 0;
+}
+#patrols .patrol h1 {
+  margin: 0;
+  font-size: 3em;
+}
+#patrols .patrol .patrol_wrapper {
+  display: flex;
+  flex-direction: row;
+}
+#patrols .patrol .patrol_wrapper .patrol_leader_cont {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+#patrols .patrol .patrol_wrapper .patrol_names_cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+#patrols .patrol .patrol_wrapper .patrol_names_cont ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 .intro {
   padding: 50px 5% 100px 5%;
 }
@@ -475,11 +511,6 @@ th:hover {
 
 .seniors > p {
   text-align: center;
-}
-
-.patrol {
-  margin: auto;
-  vertical-align: top;
 }
 
 .pl-div {
@@ -512,24 +543,6 @@ li {
   font-weight: bold;
   margin-top: 10px;
   text-align: center;
-}
-
-.patrol_wrapper {
-  display: flex;
-  flex-direction: row;
-}
-.patrol_wrapper .patrol_leader_cont {
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.patrol_wrapper .patrol_names_cont {
-  width: 70%;
-}
-.patrol_wrapper .patrol_names_cont ul {
-  list-style-type: none;
-  padding: 0;
 }
 
 @media screen and (max-width: 991px) {

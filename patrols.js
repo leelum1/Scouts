@@ -8,7 +8,7 @@ let input = ''
 scouts.patrols.map(function(patrol){
     input+= `
     <div class="patrol">
-        <h1>${patrol.title}</h1>
+        <h1 style="background-color:${patrol.color}">${patrol.title}</h1>
         <div class="patrol_wrapper">
             <div class="patrol_leader_cont">
                 <h2>Patrol Leader</h2>
@@ -16,7 +16,7 @@ scouts.patrols.map(function(patrol){
                 <h3>${patrol.patrolLeader.name}</h3>
             </div>
             <div class="patrol_names_cont">
-                <h3>Patrol</h3>
+                <h2>Patrol</h2>
                 <ul>
                     ${patrol.patrol.map(y => `<li>${y}</li>`).join('')}
                 </ul>

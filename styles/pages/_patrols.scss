@@ -1,3 +1,56 @@
+patrol_page_cont{
+    .hero_img_cont{
+        margin-top: 56px;
+
+        .troop-img{
+            width: 100%;
+        }
+        .img-title{
+
+        }
+    }
+    
+}
+
+#patrols{
+    .patrol{
+        padding: 4em 0;
+        h1{
+            margin: 0;
+            font-size: 3em;
+        }
+        .patrol_wrapper {
+            display: flex;
+            flex-direction: row;
+        
+            .patrol_leader_cont {
+                width: 30%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+            }
+        
+            .patrol_names_cont {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 70%;
+        
+                h2 {
+        
+                }
+        
+                ul {
+                    list-style-type: none;
+                    padding: 0;
+                }
+            }
+        }
+        
+    }
+}
+
 .intro {
     padding: 50px 5% 100px 5%;
 }
@@ -21,11 +74,6 @@
 
 .seniors>p {
     text-align: center;
-}
-
-.patrol {
-    margin: auto;
-    vertical-align: top;
 }
 
 .pl-div {
@@ -60,30 +108,7 @@ li {
     text-align: center;
 }
 
-.patrol_wrapper {
-    display: flex;
-    flex-direction: row;
 
-    .patrol_leader_cont {
-        width: 30%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .patrol_names_cont {
-        width: 70%;
-
-        h3 {
-            
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-    }
-}
 
 @media screen and (max-width: 991px) {
     .intro {
