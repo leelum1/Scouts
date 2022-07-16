@@ -22,6 +22,7 @@ patrol_page_cont{
         .patrol_wrapper {
             display: flex;
             flex-direction: row;
+            padding: 2em 0;
         
             .patrol_leader_cont {
                 width: 30%;
@@ -37,8 +38,8 @@ patrol_page_cont{
                 align-items: center;
                 width: 70%;
         
-                h2 {
-        
+                img {
+                    width: 12%;
                 }
         
                 ul {

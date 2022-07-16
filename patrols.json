@@ -3,6 +3,7 @@
     {
       "title": "Dolphins",
       "color": "rgb(128 128 128 / 25%)",
+      "logo": "../images/logos/dolphin_logo.svg",
       "patrolLeader" : {
         "name" : "Alastair Edwards",
         "photo": "images/patrols/placeholder.jpeg"
@@ -26,6 +27,7 @@
     {
       "title" : "Seals",
       "color": "rgb(0 192 255 / 25%)",
+      "logo": "../images/logos/seal_logo.svg",
       "patrolLeader" : {
         "name" : "Daniel Hope",
         "photo": "images/patrols/placeholder.jpeg"
@@ -50,6 +52,7 @@
     {
       "title": "Shrimps",
       "color": "rgb(248 96 93 / 25%)",
+      "logo": "",
       "patrolLeader" : {
         "name" : "Aidan Mohammed",
         "photo": "images/patrols/placeholder.jpeg"
@@ -75,6 +78,7 @@
     {
       "title": "Tads",
       "color": "rgb(72 255 72 / 25%)",
+      "logo": "",
       "patrolLeader" : {
         "name" : "Jerome Roberts",
         "photo": "images/patrols/placeholder.jpeg"
