@@ -78,7 +78,7 @@
     {
       "title": "Tads",
       "color": "rgb(72 255 72 / 25%)",
-      "logo": "",
+      "logo": "../images/logos/tads_logo.svg",
       "patrolLeader" : {
         "name" : "Jerome Roberts",
         "photo": "images/patrols/placeholder.jpeg"

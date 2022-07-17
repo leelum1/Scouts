@@ -459,8 +459,16 @@ patrol_page_cont .hero_img_cont {
 patrol_page_cont .hero_img_cont .troop-img {
   width: 100%;
 }
-#patrols .patrol {
+#patrols {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 4em 0;
+}
+#patrols .patrol {
+  width: 49%;
+  border: solid 1px black;
 }
 #patrols .patrol h1 {
   margin: 0;
@@ -478,18 +486,36 @@ patrol_page_cont .hero_img_cont .troop-img {
   align-items: center;
   justify-content: space-between;
 }
+#patrols .patrol .patrol_wrapper .patrol_leader_cont h2 {
+  font-size: 1.5em;
+}
+#patrols .patrol .patrol_wrapper .patrol_leader_cont img {
+  border-radius: 50%;
+}
+#patrols .patrol .patrol_wrapper .patrol_leader_cont h3 {
+  text-align: center;
+}
 #patrols .patrol .patrol_wrapper .patrol_names_cont {
   display: flex;
   flex-direction: column;
+  row-gap: 2em;
   align-items: center;
   width: 70%;
+  justify-content: space-between;
 }
 #patrols .patrol .patrol_wrapper .patrol_names_cont img {
-  width: 12%;
+  width: 20%;
 }
 #patrols .patrol .patrol_wrapper .patrol_names_cont ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
+  column-gap: 5em;
+  line-height: 2em;
+  columns: 2;
+}
+#patrols .patrol .patrol_wrapper .patrol_names_cont ul li {
+  text-align: left;
 }
 
 .intro {

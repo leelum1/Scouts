@@ -36,7 +36,7 @@ $(document).ready( function () {
   let footer = document.getElementsByTagName('footer')[0];
   footer.innerHTML = footerHTML;
 
-  let joinUsHTML = `<div class="container-fluid" style="background-color:#B343EE; padding:18vh 5% 20vh 5%;">
+  let joinUsHTML = `<div class="container-fluid" style="background-color:#6f1fa1; padding:18vh 5% 20vh 5%;">
                       <h2 style="color:white;font-size:40px;">Join us Today!</h2>
                       <p style="color:white;margin:auto;max-width:800px;text-align:center;">To
                         become a member, fill out the form from the link below. If
