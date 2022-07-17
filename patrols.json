@@ -52,7 +52,7 @@
     {
       "title": "Shrimps",
       "color": "rgb(248 96 93 / 25%)",
-      "logo": "",
+      "logo": "../images/logos/shrimp_logo.svg",
       "patrolLeader" : {
         "name" : "Aidan Mohammed",
         "photo": "images/patrols/placeholder.jpeg"
