@@ -18,7 +18,7 @@ scouts.patrols.map(function(patrol){
             <div class="patrol_names_cont">
                 <img src="${patrol.logo}" alt="${patrol.title}">
                 <ul>
-                    ${patrol.patrol.map(y => `<li>${y}</li>`).join('')}
+                    ${patrol.patrol.map(y => `<li>${`${y.slice(y.indexOf(" "), y.length)} ${y.slice(0, y.indexOf(" "))}`}</li>`).join('')}
                 </ul>
             </div>
         </div>
