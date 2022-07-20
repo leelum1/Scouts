@@ -493,6 +493,8 @@ patrol_page_cont .hero_img_cont .troop-img {
 }
 #patrols .patrol .patrol_wrapper .patrol_leader_cont img {
   border-radius: 50%;
+  width: 100%;
+  height: auto;
 }
 #patrols .patrol .patrol_wrapper .patrol_leader_cont h3 {
   text-align: center;
