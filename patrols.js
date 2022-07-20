@@ -4,7 +4,7 @@ import scouts from './patrols.json' assert {type: 'json'};
 
 
 let input = ''
-
+//`<li>${`${y.slice(y.indexOf(" "), y.length)}, ${y.slice(0, y.indexOf(" "))}`}</li>`
 scouts.patrols.map(function(patrol){
     input+= `
     <div class="patrol">
@@ -18,7 +18,7 @@ scouts.patrols.map(function(patrol){
             <div class="patrol_names_cont">
                 <img src="${patrol.logo}" alt="${patrol.title}">
                 <ul>
-                    ${patrol.patrol.map(y => `<li>${`${y.slice(y.indexOf(" "), y.length)} ${y.slice(0, y.indexOf(" "))}`}</li>`).join('')}
+                    ${patrol.patrol.map(y => `${`${y.slice(y.indexOf(" "), y.length)}, ${y.slice(0, y.indexOf(" "))}`}`).sort().map(z => `<li>${z}</li>`).join('')}
                 </ul>
             </div>
         </div>
