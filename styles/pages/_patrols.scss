@@ -59,10 +59,15 @@ patrol_page_cont{
                 align-items: center;
                 width: 70%;
                 justify-content: space-between;
-        
-                img {
-                    width: 20%;
+                
+                .logo_wrapper{
+                    width: 6em;
+                    height: 6em;
+                    img {
+                        width: 100%;
+                    }
                 }
+                
         
                 ul {
                     list-style-type: none;
@@ -165,9 +170,6 @@ li {
                     h2{
                         font-size: 1em;
                     }
-                    img{
-                        height: 50%;
-                    }
                 }
                 .patrol_names_cont{
                     ul{
@@ -190,9 +192,6 @@ li {
                 .patrol_leader_cont{
                     h2{
                         font-size: 1em;
-                    }
-                    img{
-                        height: 50%;
                     }
                 }
                 .patrol_names_cont{

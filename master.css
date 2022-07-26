@@ -508,8 +508,12 @@ patrol_page_cont .hero_img_cont .troop-img {
   width: 70%;
   justify-content: space-between;
 }
-#patrols .patrol .patrol_wrapper .patrol_names_cont img {
-  width: 20%;
+#patrols .patrol .patrol_wrapper .patrol_names_cont .logo_wrapper {
+  width: 6em;
+  height: 6em;
+}
+#patrols .patrol .patrol_wrapper .patrol_names_cont .logo_wrapper img {
+  width: 100%;
 }
 #patrols .patrol .patrol_wrapper .patrol_names_cont ul {
   list-style-type: none;
@@ -602,9 +606,6 @@ li {
   #patrols .patrol .patrol_wrapper .patrol_leader_cont h2 {
     font-size: 1em;
   }
-  #patrols .patrol .patrol_wrapper .patrol_leader_cont img {
-    height: 50%;
-  }
   #patrols .patrol .patrol_wrapper .patrol_names_cont ul {
     column-gap: 1em;
   }
@@ -620,9 +621,6 @@ li {
   }
   #patrols .patrol .patrol_wrapper .patrol_leader_cont h2 {
     font-size: 1em;
-  }
-  #patrols .patrol .patrol_wrapper .patrol_leader_cont img {
-    height: 50%;
   }
   #patrols .patrol .patrol_wrapper .patrol_names_cont ul {
     column-gap: 1em;
