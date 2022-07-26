@@ -459,6 +459,18 @@ patrol_page_cont .hero_img_cont {
 patrol_page_cont .hero_img_cont .troop-img {
   width: 100%;
 }
+.leader_wrapper h2 {
+  font-size: 1.5em;
+}
+.leader_wrapper .leaders-img .main_leader_imgs {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+}
+.leader_wrapper p {
+  font-size: 1em;
+}
+
 #patrols {
   display: flex;
   flex-direction: row;
