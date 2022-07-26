@@ -6,7 +6,7 @@
       "logo": "../images/logos/dolphin_logo.svg",
       "patrolLeader" : {
         "name" : "Alastair Edwards",
-        "photo": "images/patrols/placeholder.jpeg"
+        "photo": "leaders/allister-edwards-dolphins.png"
       },
       "patrol": [
         "Allister London",
@@ -30,7 +30,7 @@
       "logo": "../images/logos/seal_logo.svg",
       "patrolLeader" : {
         "name" : "Daniel Hope",
-        "photo": "images/patrols/placeholder.jpeg"
+        "photo": "leaders/daniel-hope-seals.png"
       },
       "patrol": [
         "Brett Steele Ward",
@@ -54,12 +54,12 @@
       "color": "rgb(248 96 93 / 25%)",
       "logo": "../images/logos/shrimp_logo.svg",
       "patrolLeader" : {
-        "name" : "Aidan Mohammed",
-        "photo": "images/patrols/placeholder.jpeg"
+        "name" : "Christopher Delzin",
+        "photo": "leaders/christopher-delzin-shrimps.png"
       },
       "patrol": [
         "Aaron Ray",
-        "Christopher Delzin",
+        "Aidan Mohammed",
         "Dane Murray",
         "Darrius Nicholas",
         "Ethan Alexander",
@@ -80,8 +80,8 @@
       "color": "rgb(72 255 72 / 25%)",
       "logo": "../images/logos/tads_logo.svg",
       "patrolLeader" : {
-        "name" : "Jerome Roberts",
-        "photo": "images/patrols/placeholder.jpeg"
+        "name" : "Terrell Anthony",
+        "photo": "leaders/terrell-anthony-tads.png"
       },
       "patrol": [
         "Aleksei Diaz",
@@ -97,7 +97,7 @@
         "Kevin Alexander",
         "Scott Audroing",
         "Shaquille Pierrre",
-        "Terrel Anthony"
+        "Jerome Roberts"
       ]
     }
   ]
