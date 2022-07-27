@@ -1,35 +1,35 @@
-h2{
-    margin-top: 0px;
-  }
-
-  .activities{
-    padding-top: 100px;
-  }
-
-  .activities img{
-    width: 100%;
-  }
-
-  .activity{
-    margin-bottom: 30px;
-  }
-
-  .activity h2{
-    text-align: center;
-  }
-
-  .boathouse{
-    background-color: lightblue;
-  }
-
-  .boathouse img{
-    border: 1px solid black;
-    margin-bottom: 20px;
-    width:100%;
-  }
-
-  @media screen and (max-width: 991px) {
     h2{
-      margin-top: 20px;
+      margin-top: 0px;
     }
-  }
+
+    .activities{
+      padding-top: 100px !important;
+    }
+
+    .activities img{
+      width: 100%;
+    }
+
+    .activity{
+      margin-bottom: 30px;
+    }
+
+    .activity h2{
+      text-align: center;
+    }
+
+    .boathouse{
+      background-color: lightblue;
+    }
+
+    .boathouse img{
+      border: 1px solid black;
+      margin-bottom: 20px;
+      width:100%;
+    }
+
+    @media screen and (max-width: 991px) {
+      h2{
+        margin-top: 20px;
+      }
+    }

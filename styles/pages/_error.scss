@@ -1,8 +1,10 @@
-.error {
-    margin: auto;
-    max-width: 800px;
-}
+.error_page{
+    .error {
+        margin: auto;
+        max-width: 800px;
+    }
 
-.error>* {
-    text-align: center;
+    .error>* {
+        text-align: center;
+    }
 }

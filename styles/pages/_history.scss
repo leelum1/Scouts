@@ -1,21 +1,23 @@
-.main {
-    margin: auto;
-    max-width: 1200px;
-    padding-top: 100px;
-}
+.hisory_page{    
+    .main {
+        margin: auto;
+        max-width: 1200px;
+        padding-top: 100px;
+    }
 
-.year-div {
-    border-top: 1px solid grey;
-    margin-bottom: 30px;
-    padding-top: 10px;
-    text-align: center;
-}
+    .year-div {
+        border-top: 1px solid grey;
+        margin-bottom: 30px;
+        padding-top: 10px;
+        text-align: center;
+    }
 
-.year-heading {
-    font-style: italic;
-    text-align: center;
-}
+    .year-heading {
+        font-style: italic;
+        text-align: center;
+    }
 
-.year-div>* {
-    text-align: center;
+    .year-div>* {
+        text-align: center;
+    }
 }

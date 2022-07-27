@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Pirata+One&family=Raleway&display=swap");
-.activities {
+.home_page .activities {
   color: white;
   height: 100vh;
   padding: 10%;
@@ -7,82 +7,70 @@
   width: 100%;
   z-index: 10;
 }
-
-.activities * {
+.home_page .activities * {
   text-align: center;
 }
-
-.cover {
+.home_page .cover {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.events {
+.home_page .events {
   background-color: lightblue;
   padding: 50px 5% 50px 5%;
 }
-
-.event {
+.home_page .event {
   margin: auto;
   margin-bottom: 40px;
   max-width: 800px;
 }
-
-.events h4 {
+.home_page .events h4 {
   font-weight: bold;
 }
-
-.event-date {
+.home_page .event-date {
   font-size: 16px;
   font-style: italic;
 }
-
-.month-calendar {
+.home_page .month-calendar {
   padding-top: 20px;
   text-align: center;
 }
-
-.button a {
+.home_page .button a {
   padding: 10px 10% 10px 10%;
 }
-
-h6 {
+.home_page h6 {
   text-align: center;
 }
-
-.category {
+.home_page .category {
   text-align: center;
 }
-
-.category > p {
+.home_page .category > p {
   font-style: italic;
   font-size: 12px;
   margin-top: 5px;
   text-align: center;
 }
-
-.history * {
+.home_page .history * {
   text-align: center;
 }
-
 @media screen and (max-width: 991px) {
-  .activities {
+  .home_page .activities {
     padding: 100px 5% 0 5%;
   }
-  .events {
+  .home_page .events {
     padding-top: 20px;
   }
-  .month-calendar {
+  .home_page .month-calendar {
     display: none;
   }
-  .img {
+  .home_page .img {
     text-align: center;
   }
-  .event-date {
+  .home_page .event-date {
     font-size: 12px;
   }
 }
+
 .intro {
   padding-top: 10%;
 }
@@ -321,7 +309,7 @@ h2 {
 }
 
 .activities {
-  padding-top: 100px;
+  padding-top: 100px !important;
 }
 
 .activities img {
@@ -360,90 +348,79 @@ h2 {
   text-align: center;
 }
 
-.error {
+.error_page .error {
   margin: auto;
   max-width: 800px;
 }
-
-.error > * {
+.error_page .error > * {
   text-align: center;
 }
 
-h4 {
+.events_page h4 {
   font-weight: bold;
 }
-
-.main {
+.events_page .main {
   padding-top: 100px;
 }
-
-.events .row {
+.events_page .events .row {
   border-top: 1px solid black;
   padding-top: 20px;
 }
-
-.events .row:last-of-type {
+.events_page .events .row:last-of-type {
   padding-bottom: 50px;
 }
-
-.event-date {
+.events_page .event-date {
   font-size: 16px;
   font-style: italic;
 }
-
-.img {
+.events_page .img {
   margin-bottom: 20px;
   text-align: center;
 }
-
 @media screen and (max-width: 991px) {
-  .event-date {
+  .events_page .event-date {
     font-size: 12px;
   }
 }
-.main {
+
+.hisory_page .main {
   margin: auto;
   max-width: 1200px;
   padding-top: 100px;
 }
-
-.year-div {
+.hisory_page .year-div {
   border-top: 1px solid grey;
   margin-bottom: 30px;
   padding-top: 10px;
   text-align: center;
 }
-
-.year-heading {
+.hisory_page .year-heading {
   font-style: italic;
   text-align: center;
 }
-
-.year-div > * {
+.hisory_page .year-div > * {
   text-align: center;
 }
 
-.main {
+.pastscouts_page .main {
   margin: auto;
   max-width: 1200px;
   padding-top: 100px;
 }
-
-.table-div {
+.pastscouts_page .table-div {
   margin-top: 30px;
 }
-
-th:hover {
+.pastscouts_page th:hover {
   background-color: lightgrey;
   cursor: pointer;
 }
-
 @media screen and (max-width: 991px) {
-  .table-div {
+  .pastscouts_page .table-div {
     max-width: 100vw;
     overflow-x: scroll;
   }
 }
+
 .contact {
   margin: auto;
   max-width: 800px;
@@ -453,10 +430,10 @@ th:hover {
   text-align: center;
 }
 
-patrol_page_cont .hero_img_cont {
+.patrol_page_cont .hero_img_cont {
   margin-top: 56px;
 }
-patrol_page_cont .hero_img_cont .troop-img {
+.patrol_page_cont .hero_img_cont .troop-img {
   width: 100%;
 }
 .leader_wrapper h2 {
@@ -539,113 +516,6 @@ patrol_page_cont .hero_img_cont .troop-img {
   text-align: left;
 }
 
-.intro {
-  padding: 50px 5% 100px 5%;
-}
-
-.img {
-  text-align: center;
-}
-
-.leaders {
-  background-color: black;
-  color: white;
-}
-
-.leaders * {
-  text-align: center;
-}
-
-.leaders p {
-  margin-top: 5px;
-}
-
-.seniors > p {
-  text-align: center;
-}
-
-.pl-div {
-  text-align: center;
-}
-
-.pl {
-  margin-top: 10px;
-  text-align: center;
-}
-
-.leader-img {
-  border: none;
-  border-radius: 5%;
-  height: 150px;
-}
-
-ol {
-  margin-top: 10px;
-  list-style-type: none;
-}
-
-li {
-  font-size: 14px;
-  text-align: center;
-}
-
-.leader-name {
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 10px;
-  text-align: center;
-}
-
-@media screen and (max-width: 1100px) {
-  #patrols {
-    flex-direction: column;
-    align-items: center;
-  }
-  #patrols .patrol {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 991px) {
-  .intro {
-    padding-top: 20px;
-  }
-}
-@media screen and (max-width: 650px) {
-  #patrols {
-    flex-direction: column;
-    align-items: center;
-  }
-  #patrols .patrol .patrol_wrapper .patrol_leader_cont h2 {
-    font-size: 1em;
-  }
-  #patrols .patrol .patrol_wrapper .patrol_names_cont ul {
-    column-gap: 1em;
-  }
-}
-@media screen and (max-width: 500px) {
-  #patrols {
-    flex-direction: column;
-    align-items: center;
-  }
-  #patrols .patrol .patrol_wrapper {
-    flex-direction: column;
-    align-items: center;
-  }
-  #patrols .patrol .patrol_wrapper .patrol_leader_cont h2 {
-    font-size: 1em;
-  }
-  #patrols .patrol .patrol_wrapper .patrol_names_cont ul {
-    column-gap: 1em;
-  }
-}
-@media screen and (max-width: 350px) {
-  #patrols .patrol .patrol_wrapper .patrol_names_cont ul {
-    columns: auto;
-  }
-  #patrols .patrol .patrol_wrapper .patrol_names_cont ul li {
-    text-align: center;
-  }
-}
 body {
   margin: 0;
 }
