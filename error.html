@@ -3,12 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="author" content="Kevan Lee Lum">
-    <!-- http://www.kevanleelum.com/ -->
     <meta name="description" content="Error Page. You don't want to be here">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>1st Trinidad Sea Scouts</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-     
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
@@ -20,7 +19,16 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  
+    <style media="screen">
+      .error{
+        margin: auto;
+        max-width: 800px;
+      }
+
+      .error > *{
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
@@ -46,17 +54,15 @@
       <img src="images/dexter_logo.png" width="800px" alt="">
     </div>
 
-    <div class="error_page">
-      <div class="container-fluid main">
-        <div class="error">
-          <h1>Error!</h1>
-          <p>Sorry, we do not have what you are looking for. Please hit the Back button,
-            or any of the links above. If you reached here by clicking on a link in the
-            website, please
-            <a href="contact.html">contact us and let us know </a>
-            so that we can address the problem as soon as possible. Happy scouting!
-          </p>
-        </div>
+    <div class="container-fluid main">
+      <div class="error">
+        <h1>Error!</h1>
+        <p>Sorry, we do not have what you are looking for. Please hit the Back button,
+          or any of the links above. If you reached here by clicking on a link in the
+          website, please
+          <a href="contact.html">contact us and let us know </a>
+          so that we can address the problem as soon as possible. Happy scouting!
+        </p>
       </div>
     </div>
 
