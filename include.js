@@ -25,7 +25,7 @@ $(document).ready( function () {
   let footerHTML = `<div class="container-fluid">
                       <div class="row">
                         <div class="col-3">
-                          <!-- <a target="_blank" href="https://www.instagram.com/1sttss/?hl=en"><img class="social-link" src="http://1tss.org/images/Instagram.png" alt=""></a> -->
+                          <a target="_blank" href="https://www.instagram.com/1sttss/?hl=en"><img class="social-link" src="http://1tss.org/images/Instagram.png" alt=""></a>
                         </div>
                         <div class="col-9">
                           <p id="copyright">Copyright 2022 First Trinidad Sea Scouts, Est. 1922.</p>
