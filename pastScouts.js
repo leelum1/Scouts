@@ -147,6 +147,7 @@ let pastScouts = [
 {first: 'Matthew',last: 'Persaud',from:2003,to:2008,email: 'matthew.persaud135@gmail.com'},
 {first: 'Joshua D',last: 'Peter',from:2008,to:2015,email: 'JoshuaDPeter@gmail.com'},
 {first: 'Sephanyah',last: 'Peters',from:2006,to:2011,email: 'sphnyhptrs@gmail.com'},
+{first: 'Maurice',last: 'Phillip',from:1985,to:1988,email: 'mphillip@gmail.com'},
 {first: 'John F.',last: 'Pocock',from:1940,to:1943,email: 'Unavailable'},
 {first: 'Dwight',last: 'Pollonais',from:1995,to:2000,email: 'dwightpollonais@yahoo.com'},
 {first: 'Michael',last: 'Poon',from:1960,to:1964,email: 'mpoon@cableregina.com'},

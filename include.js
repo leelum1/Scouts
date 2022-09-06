@@ -10,7 +10,7 @@ $(document).ready( function () {
                             <div class="navbar-nav">
                               <a class="nav-item nav-link" href="activities.html">Activities</a>
                               <a class="nav-item nav-link" href="learning/learning.html">Learning Resources</a>
-                              <a class="nav-item nav-link" href="patrols.html">Patrols</a>
+                              <a class="nav-item nav-link" href="patrols.html">Patrols & Past Scouts</a>
                               <a class="nav-item nav-link" href="contact.html">Contact</a>
                             </div>
                           </div>
@@ -39,13 +39,14 @@ $(document).ready( function () {
   let joinUsHTML = `<div class="container-fluid" style="background-color:#B343EE; padding:18vh 5% 20vh 5%;">
                       <h2 style="color:white;font-size:40px;">Join us Today!</h2>
                       <p style="color:white;margin:auto;max-width:800px;text-align:center;">To
-                        become a member, fill out the form from the link below. If
+                        become a member, fill out the form at the link below and return to the Scout Room or email it to firsttss@gmail.com. If
                         you have any questions, feel free to
                         <a href="contact.html" style="color:white; text-decoration:underline;">contact us here.</a>
                       </p>
                       <div style="margin-top: 20px;text-align:center;">
-                        <a class="btn btn-success" href="https://docs.google.com/forms/d/12ff23mRby-Yh_4kpGempKgTZNnt1PEmfPm_cVRkBQY8/viewform?ts=5f96266f&gxids=7628&edit_requested=true" target="_blank" style="padding: 10px 20px 10px 20px;">Application Form</a>
-                      </div>
+                        <!--<a class="btn btn-success" href="https://docs.google.com/forms/d/12ff23mRby-Yh_4kpGempKgTZNnt1PEmfPm_cVRkBQY8/viewform?ts=5f96266f&gxids=7628&edit_requested=true" target="_blank" style="padding: 10px 20px 10px 20px;">Application Form</a>-->
+                        <a class="btn btn-success" href="docs/application.pdf" target="_blank" style="padding: 10px 20px 10px 20px;">Scouts Application Form</a>
+                        </div>
                     </div>`;
 
   let joinUs = document.getElementById('joinUs');
